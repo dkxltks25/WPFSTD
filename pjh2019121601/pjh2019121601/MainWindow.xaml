@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBlock Text="TextBlock"></TextBlock>
+        <TextBlock FontSize="20"><Run Text="TextBox"/><LineBreak/><Run/></TextBlock>
         <TextBox Text="TextBox"></TextBox>
         <ProgressBar Value="50" Width="60" Height="20"/>
         <Slider Value="5" Width="60"/>
